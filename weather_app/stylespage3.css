@@ -1,0 +1,72 @@
+body
+{
+    background-color: rgb(78, 69, 69);
+}
+
+.centerit
+{
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    vertical-align: center;
+}
+
+.headerText
+{
+    background-image: url(Images/fire.gif);
+    background-size:contain;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 5rem;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.buttonShape
+{
+    width: 12rem;
+    height: 6rem;
+    border-radius: 10%;
+    background-color: white;
+}
+
+.textinbutton
+{
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.box
+{
+    width: 12rem;
+    height: 6rem;
+    border-radius: 10%;
+    color: black;
+    background-color: white;
+}
+
+.search
+{
+    display: flex;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input.search-bar 
+{
+    border: none;
+    outline: none;
+    padding: 0.4em 1em;
+    border-radius: 24px;
+    background: #2925252b;
+    color: black;
+    font-family: inherit;
+    font-size: 105%;
+    font-weight: bold;
+    width: 20%;
+}

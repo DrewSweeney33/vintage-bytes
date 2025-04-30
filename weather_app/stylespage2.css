@@ -1,0 +1,70 @@
+body
+{
+    background-color: rgb(78, 69, 69);
+}
+
+.search
+{
+    display: flex;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input.search-bar 
+{
+    border: none;
+    outline: none;
+    padding: 0.4em 1em;
+    border-radius: 24px;
+    background: #2925252b;
+    color: black;
+    font-family: inherit;
+    font-size: 105%;
+    font-weight: bold;
+    width: 20%;
+}
+
+.locationText
+{
+    font-size: 5em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(0, 0, 155);
+}
+
+button 
+{
+    margin: 0.5em;
+    border-radius: 50%;
+    border: none;
+    height: 44px;
+    width: 42px;
+    outline: none;
+    background: #4b44442b;
+    color: black;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.centerit
+{
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.blacktext
+{
+    color: white;
+}
+
+.box
+{
+    width: fit-content;
+    height: fit-content;
+    background-color: rgb(0, 0, 155);
+    border-radius: 10px;
+}

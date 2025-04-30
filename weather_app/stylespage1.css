@@ -1,0 +1,23 @@
+body
+{
+    background-color: rgb(78, 69, 69);
+}
+
+.centerit
+{
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.headerText
+{
+    background-image: url(Images/rain.gif);
+    background-size: contain;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 10rem;
+    font-weight: bold;
+    font-family: 'Anton', sans-serif;
+}
